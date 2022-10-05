@@ -22,7 +22,7 @@ public class SeleniumSQLIntegration {
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pword);
         driver.findElement(By.xpath("//input[@id='login-button']")).click();
     }
-
+#
     @DataProvider(name = "DP")
     public String[][] feedDP() throws ClassNotFoundException, SQLException{
             String data[][] = getDBValues();
